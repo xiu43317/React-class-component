@@ -1,0 +1,43 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": ".",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack -p",
+    "eslintInit": "eslint --init",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "axios": "^0.21.0",
+    "babel-loader": "^8.1.0",
+    "body-parser": "^1.19.0",
+    "css-loader": "^3.0.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mini-css-extract-plugin": "^0.7.0",
+    "mongodb": "^3.6.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.0.5",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
